@@ -1,0 +1,12 @@
+{
+  "type": "structural",  "material": "aluminum",
+  "spacing": 1.0,  "volfrac": 0.05,
+  "penal": 3.0,
+  "rmin": 2.0,
+  "move": 0.2,
+  "eta": 0.5,
+  "max_iter": 100,
+  "tol": 0.001,
+  "nu": 0.3,
+  "snapshot_interval": 5
+}

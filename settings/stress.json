@@ -1,0 +1,17 @@
+{
+  "type": "stress",
+  "material": "aluminum",
+  "spacing": 1.0,
+  "volfrac": 0.2,
+  "penal": 3.0,
+  "rmin": 2.0,
+  "move": 0.2,
+  "eta": 0.5,
+  "max_iter": 60,
+  "tol": 0.001,
+  "nu": 0.3,
+  "sigma_max": 200,
+  "p_stress": 10.0,
+  "stress_weight": 0.5,
+  "snapshot_interval": 5
+}

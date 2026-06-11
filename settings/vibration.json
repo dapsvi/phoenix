@@ -1,0 +1,14 @@
+{
+  "type": "vibration",
+  "volfrac": 0.3,
+  "penal": 3.0,
+  "rmin": 2.0,
+  "move": 0.2,
+  "eta": 0.5,
+  "max_iter": 40,
+  "tol": 0.001,
+  "nu": 0.3,
+  "snapshot_interval": 5,
+  "material": "aluminum",
+  "spacing": 1.0
+}

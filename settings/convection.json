@@ -1,0 +1,16 @@
+{
+  "type": "convection",
+  "volfrac": 0.3,
+  "initial_density": 0.5,
+  "penal": 3.0,
+  "rmin": 2.5,
+  "move": 0.2,
+  "eta": 0.5,
+  "max_iter": 60,
+  "tol": 0.001,
+  "h_conv": 0.05,
+  "penal_conv": 3.0,
+  "snapshot_interval": 5,
+  "material": "aluminum",
+  "spacing": 1.0
+}

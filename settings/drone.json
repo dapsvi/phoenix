@@ -1,0 +1,28 @@
+{
+  "type": "multi",
+  "mode": "simultaneous",
+  "max_iter": 60,
+  "volfrac": 0.15,
+  "rmin": 1.5,
+  "move": 0.2,
+  "eta": 0.5,
+  "tol": 0.01,
+  "solvers": [
+    {
+      "type": "structural",
+      "penal": 3.0,
+      "nu": 0.3,
+      "weight": 0.5
+    },
+    {
+      "type": "stress",
+      "sigma_max": 200,
+      "p_stress": 10.0,
+      "stress_weight": 1.0,
+      "weight": 0.5
+    }
+  ],
+  "snapshot_interval": 5,
+  "material": "aluminum",
+  "spacing": 1.0
+}
